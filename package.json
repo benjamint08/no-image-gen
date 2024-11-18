@@ -1,0 +1,20 @@
+{
+  "name": "no-image-gen",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "benjamint08",
+  "repository": "git@github.com:benjamint08/no-image-gen.git",
+  "license": "ISC",
+  "description": "A simple package to generate a basic image with text, why? Because I can",
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "canvas": "^2.11.2",
+    "hono": "^4.6.10"
+  }
+}
